@@ -9,25 +9,25 @@ cask "aat" do
     end
   end
 
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_arm do
-      sha256 "74df755056686f37e62181a5215cddc0be88dcea0f8a06fb31b04c925d95fbec"
+      sha256 "d9a8e35cbe18b07961d68d85da374b516ad00d5fb163a57137de66d790e363d8"
       url "https://github.com/gburgyan/aat/releases/download/v#{version}/aat_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "027d466e549b061f775373af8bec7f08e6b05a9c32a0147d8d2403441477207e"
+      sha256 "6c845fcc8c45b6fc53647ee282387a86be361354cf0194a1665acde82d56a694"
       url "https://github.com/gburgyan/aat/releases/download/v#{version}/aat_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f3bdc7f1bb0ab19a43e1efa788df13e3b19e5f3c69dbe544696999f22b1cc42c"
+      sha256 "4d9d6f49c4083152137b517b968378f48922f6d5c24ae40f4092ef6e528b026e"
       url "https://github.com/gburgyan/aat/releases/download/v#{version}/aat_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0bafd18244254036419ba943fef36f8cd9500afe80b3b965df776d152504de90"
+      sha256 "b742f747f6779c503065f47f9585edac4e5202fd73fd205c08a6382d734ac533"
       url "https://github.com/gburgyan/aat/releases/download/v#{version}/aat_linux_amd64.tar.gz"
     end
   end
